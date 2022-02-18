@@ -1,0 +1,11 @@
+#program to print sum of factorials
+def factorial(n):
+    s=0
+    fact=1
+    for i in range (1,n+1):
+        fact=fact*i
+        s+=fact
+    return s
+n=int(input('enter number')) 
+print(factorial(n)) 
+    
